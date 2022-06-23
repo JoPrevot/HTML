@@ -1,0 +1,134 @@
+/*
+ h1 : selecteur
+ color: propriete
+ blue : valeur
+*/
+
+
+/* Selecteur d'element(balise) */
+/* h1{
+    color : blue;
+}
+
+p{
+    color:blue;
+} */
+
+/* Selecteur de classe */
+/* .text-italic{
+    font-style:italic ;
+}
+
+.text-danger{
+    color:red;
+} */
+
+/* Selecteur d'ID */
+/* #para-1{
+    color: indigo;
+} */
+
+/* Combinateurs */
+/* Cibler tous les elements qui sont des enfants direct de ol */
+/* .section > .section-child{
+    font-style:italic;
+} */
+
+
+/* Cibler tous les elements qui sont des enfants  de ol dans la hierarchie */
+/* .section .section-child{
+    font-style:italic;
+} */
+
+.main-title
+{
+    color : #204b12;
+}
+
+.secondary-title
+{
+    color : rgb(120,140,200)
+}
+
+/* Couleur de background */
+.para-1
+{
+    background-color: #14124b;
+    color:white
+}
+
+/* type de police */
+.para-1
+{
+    font-family: 'nunito', sans-serif;
+}
+
+/* Taille de la police */
+.para-1
+{
+    font-size: 30px;
+}
+
+/* modifier le style */
+.para-1
+{
+    font-style: italic;
+}
+
+/* Mettre le texte en gras */
+.para-1
+{
+    font-weight: 400;
+}
+
+/* alignement du texte */
+.para-1
+{
+    text-align: center;
+}
+
+/* Marges externes */
+.para-1
+{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/* Marges internes */
+.para-1
+{
+    padding-top: 25px;
+    padding-bottom: 30px;
+    padding-left: 25px;
+    padding-right: 30px;
+    padding: 25px 30px 25px 30px;
+}
+
+/* Bordures */
+.para-1
+{
+    border-top: 10px solid rgb(180, 34, 24);
+    border-bottom: 10px solid rgb(180, 34, 24);
+    border-left: 10px solid rgb(180, 34, 24);
+    border-right: 10px solid rgb(180, 34, 24);
+    border: 10px solid green;
+    border-radius: 20px;
+}
+
+/* Soulignement et décoration */
+.main-title
+{
+    text-decoration: underline;
+}
+
+/* Modifier la hauteur et la largeur */
+.text-spring
+{
+    width: 50%;
+    height: 100px;
+    border : 2px solid black;
+    /* overflow : cache du texte qui déborde */
+    overflow: scroll;
+}

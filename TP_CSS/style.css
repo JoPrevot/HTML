@@ -1,0 +1,32 @@
+.titre
+{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
+
+.underline
+{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid;
+    margin-right: 50%;
+    padding-top: 5px;
+}
+.marge
+{
+    padding-top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+.bouton-creer
+{
+    margin-top: 50px;
+    text-align: center;
+    background-color: #4baf4f;
+    color:white;
+    width: 200px;
+    font-size: 25px;
+    border: 0px;
+    padding-top: 25px;
+}

@@ -1,0 +1,56 @@
+.entete
+{
+    background-color: #001E32;
+    color:white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+tbody > tr:nth-child(odd)
+{
+    background-color:#EEEEEE;
+}
+tbody > tr:nth-child(even)
+{
+    background-color:#FFFFFF;
+}
+
+.voir
+{
+    background-color: #007CCB;
+    color:white;
+    min-width: 150px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: 0px;
+    
+}
+.voir:hover
+{
+    cursor: pointer;
+    background-color: gray;
+}
+.supprimer:hover
+{
+    cursor: pointer;
+    background-color: gray;
+}
+.voir:active
+{
+    background-color: rgb(202, 255, 127);
+}
+
+.supprimer
+{
+    background-color: #FF5C6C;
+    color:white;
+    min-width: 150px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 15px;
+    text-align: center;
+    border: 0px;
+}
+td
+{
+    padding: 10px;
+}
